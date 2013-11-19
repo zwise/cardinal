@@ -1,0 +1,82 @@
+/* ================================================================== *\
+   Code ($code)
+\* ================================================================== */
+
+/* Correct `font-family` set oddly in Safari 5 and Chrome */
+code,
+kbd,
+pre,
+samp {
+	color: #444;
+	font-family: Monaco, "Lucida Sans Typewriter", Consolas,
+		"Courier New", monospace;
+}
+
+code,
+kbd {
+	font-size: 75%;
+}
+
+code {
+	padding: 0 0.3rem;
+	border: 1px solid #dedede;
+	@include border-radius(3px);
+	background: #f8f8f8;
+	white-space: nowrap;
+}
+
+/* Increase `padding` at larger viewport widths */
+@media only screen and (min-width: $hand-wide) {
+	code {
+		padding: 0.1rem 0.3rem;
+	}
+}
+
+kbd {
+	position: relative;
+	top: -1px;
+	margin-bottom: 1px;
+	padding: 0 0.3rem;
+	border: 1px solid #dedede;
+	@include border-radius(4px);
+	background: #f8f8f8;
+	@include box-shadow(0 1px 0 #dedede, inset 0 0 0 1px #fff);
+	white-space: nowrap;
+}
+
+/* Increase `padding` at larger viewport widths */
+@media only screen and (min-width: $hand-wide) {
+	kbd {
+		padding: 0.1rem 0.3rem;
+	}
+}
+
+pre {
+	position: relative;
+	overflow: auto;
+	padding: 1rem;
+	background: #222;
+	@include box-shadow(inset 0 0 5px hsla(0, 0%, 0%, 0.6));
+	color: #ccc;
+	white-space: pre;
+	word-wrap: normal;
+	word-break: normal;
+	-moz-tab-size: 4;
+	-o-tab-size:   4;
+	tab-size:      4;
+	@include hyphens(none);
+}
+
+/* Reset above <code> styles when nested inside <pre> tags */
+pre code {
+	display: block;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	border: none;
+	@include border-radius(0);
+	background: transparent;
+	color: inherit;
+	white-space: pre;
+}

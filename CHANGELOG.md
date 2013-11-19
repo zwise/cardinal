@@ -1,3 +1,6 @@
+# 1.4.1 - Forked (November 19, 2013)
+- Converted over to Sass
+
 # 1.4.0 (November 8, 2013)
 
 - Removed some helper classes for alignment, margins, and paddings. Classes were cluttering HTML markup, and it started to feel like inline styling.

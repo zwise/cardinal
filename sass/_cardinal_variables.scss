@@ -1,0 +1,50 @@
+/*  ==================================================================  *\
+		Break Points
+/*  ==================================================================  */
+$hand: 320px;
+$hand-wide: 480px;
+$lap: 640px;
+$desk: 960px;
+$desk-wide: 1440px;
+
+/*  ==================================================================  *\
+		Helpers
+/*  ==================================================================  */
+/* Font sizing */
+$font_huge:			4.209rem;
+$font_xxl:			3.157rem;
+$font_xl:				2.369rem;
+$font_large:		1.777rem;
+$font_medium:		1.333rem;
+$font_regular:	1rem;
+$font_small:		0.75rem;
+
+/* Font weight */
+$font_ultralight:	100;
+$font_light:			300;
+$font_normal:			400;
+$font_semibold:		600;
+$font_bold:				700;
+$font_black:			900;
+
+/*  ==================================================================  *\
+		Grid Widths
+/*  ==================================================================  */
+/*Widths */
+$grid-item:			percentage(1/1);
+$one_whole:			percentage(1/1);
+$one_half:			percentage(1/2);
+$one_third:			percentage(1/3);
+$two_thirds:		percentage(2/3);
+$one_fourth:		percentage(1/4);
+$two_fourths:		percentage(2/4);
+$three_fourths:	percentage(3/4);
+$one_fifth:			percentage(1/5);
+$two_fifths:		percentage(2/5);
+$three_fifths:	percentage(3/5);
+$four_fifths:		percentage(4/5);
+$one_sixth:			percentage(1/6);
+$two_sixths:		percentage(2/6);
+$three_sixths:	percentage(3/6);
+$four_sixths:		percentage(4/6);
+$five_sixths:		percentage(5/6);
